@@ -1,0 +1,10 @@
+//creating a file name hello.sh which has text wriitern it will run the commnad int the terminal through CLI and it will call kernel mode through the system call
+
+#!/bin/bash
+  while [true]
+  do
+        echo"hello world!"
+  done
+
+//while run this file on the terminal we will get the unlimited hello world we can check the ID and file through system call like
+ps -a
